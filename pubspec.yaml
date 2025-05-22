@@ -1,0 +1,32 @@
+name: kwenta_app
+description: "Aplicación Flutter para visualización de consumo energético."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+
+  # Firebase (sin fijar versión exacta para permitir upgrade)
+  firebase_core: any
+  firebase_auth: any
+  cloud_firestore: any
+  firebase_storage: any
+
+  # Para compatibilidad web (ya no uses `js: ^0.6.7`, está deprecated)
+  web: any
+
+  # Otros
+  image_picker: any
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: any
+
+flutter:
+  uses-material-design: true

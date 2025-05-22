@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "53886900716",
+    "project_id": "kwenta-d77ff",
+    "storage_bucket": "kwenta-d77ff.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:53886900716:android:e8d9ab5320db7260ab48c9",
+        "android_client_info": {
+          "package_name": "com.example.kwenta_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDlPGOUpwNp-ihxCDlvluEmvL8QsWgIn5c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
